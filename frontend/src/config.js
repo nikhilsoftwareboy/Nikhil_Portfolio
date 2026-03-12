@@ -28,7 +28,7 @@ export const config = {
             { name: "MySQL / MongoDB", level: 80 }
         ],
         certificates: [
-            { title: "NPTEL Certification on Privacy and Security", link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS117S135870154510684630" },
+            { title: "NPTEL Certification on Privacy and Security", link: "https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/106/noc25-cs117/Course/NPTEL25CS117S135870154510684630.pdf" },
             { title: "C++ Programming: OOPs and DSA | CSE Pathshala", link: "https://docs.google.com/document/d/143eyqPSnx2o6sI1mpOK-wvwu2F3bI9R3JjGO_veEInM/edit?usp=sharing" },
             { title: "Software Engineering: Implementation and Testing | Coursera", link: "https://www.coursera.org/account/accomplishments/verify/EKX9HYY645CV" },
             { title: "Crash Course on Python (Google) | Coursera", link: "https://www.coursera.org/account/accomplishments/verify/XSH4GGKFJFS3" }
