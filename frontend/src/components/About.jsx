@@ -86,7 +86,14 @@ const About = () => {
                         {config.about.certificates.map((cert, idx) => (
                             <li key={idx} className="flex items-start gap-3">
                                 <span className="text-accent text-xl mt-1">📜</span>
-                                <span className="text-gray-700 dark:text-gray-300 font-medium leading-relaxed">{cert.title}</span>
+                                <a
+                                    href={cert.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-gray-700 dark:text-gray-300 font-medium leading-relaxed hover:text-accent dark:hover:text-accent transition-colors hover:underline"
+                                >
+                                    {cert.title}
+                                </a>
                             </li>
                         ))}
                     </ul>

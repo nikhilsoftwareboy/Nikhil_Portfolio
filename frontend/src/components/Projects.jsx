@@ -80,6 +80,26 @@ const Projects = () => {
                         </motion.div>
                     ))}
                 </div>
+
+                {/* Download Resume Button */}
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, margin: "-50px" }}
+                    transition={{ duration: 0.6, delay: 0.2 }}
+                    className="mt-20 flex justify-center"
+                >
+                    <a
+                        href="/resume.pdf"
+                        download="Nikhil_Kumar_Singh_Resume.pdf"
+                        className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-accent text-white font-bold text-lg rounded-full shadow-[0_0_20px_rgba(0,220,130,0.3)] hover:shadow-[0_0_30px_rgba(0,220,130,0.6)] hover:-translate-y-1 transition-all duration-300"
+                    >
+                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                        </svg>
+                        Download My Resume
+                    </a>
+                </motion.div>
             </div>
         </section>
     );

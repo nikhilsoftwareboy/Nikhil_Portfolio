@@ -34,11 +34,27 @@ const Experience = () => {
                             {/* Card */}
                             <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-2xl bg-white dark:bg-[#1e242c] shadow-md border border-gray-100 dark:border-gray-800 group-hover:border-accent/50 transition-colors">
                                 <div className="flex flex-col mb-2">
-                                    <span className="text-accent font-bold text-sm tracking-widest">{item.year}</span>
-                                    <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-1">{item.role}</h3>
-                                    <h4 className="text-md text-gray-500 dark:text-gray-400 font-medium">{item.company}</h4>
+                                    <span className="text-accent font-bold text-sm tracking-widest mb-3">{item.year}</span>
+
+                                    <div className="flex items-center gap-4">
+                                        {/* Institution Logo */}
+                                        {item.logo && (
+                                            <div className="shrink-0 w-12 h-12 md:w-16 md:h-16 rounded-lg overflow-hidden bg-white shadow-sm border border-gray-100 dark:border-gray-700 flex items-center justify-center">
+                                                <img
+                                                    src={item.logo}
+                                                    alt={`${item.company} logo`}
+                                                    className="w-full h-full object-contain p-1"
+                                                />
+                                            </div>
+                                        )}
+
+                                        <div>
+                                            <h3 className="text-xl font-bold text-gray-900 dark:text-white">{item.role}</h3>
+                                            <h4 className="text-md text-gray-500 dark:text-gray-400 font-medium">{item.company}</h4>
+                                        </div>
+                                    </div>
                                 </div>
-                                <p className="text-gray-600 dark:text-gray-300 mt-3 leading-relaxed">
+                                <p className="text-gray-600 dark:text-gray-300 mt-4 leading-relaxed">
                                     {item.description}
                                 </p>
                             </div>

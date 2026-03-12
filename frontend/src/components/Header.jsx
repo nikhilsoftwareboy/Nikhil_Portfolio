@@ -19,7 +19,7 @@ const Header = () => {
     return (
         <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 backdrop-blur-md bg-white/10 dark:bg-black/20 border-b border-white/10">
             <div className="text-2xl font-bold tracking-tighter text-accent">
-                Kum<span className="text-gray-900 dark:text-white">ar.</span>
+                Ni<span className="text-gray-900 dark:text-white">KS.</span>
             </div>
 
             {/* Desktop Nav */}

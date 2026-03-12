@@ -28,10 +28,10 @@ export const config = {
             { name: "MySQL / MongoDB", level: 80 }
         ],
         certificates: [
-            { title: "NPTEL Certification on Privacy and Security", link: "#" },
-            { title: "C++ Programming: OOPs and DSA | CSE Pathshala", link: "#" },
-            { title: "Software Engineering: Implementation and Testing | Coursera", link: "#" },
-            { title: "Crash Course on Python (Google) | Coursera", link: "#" }
+            { title: "NPTEL Certification on Privacy and Security", link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS117S135870154510684630" },
+            { title: "C++ Programming: OOPs and DSA | CSE Pathshala", link: "https://docs.google.com/document/d/143eyqPSnx2o6sI1mpOK-wvwu2F3bI9R3JjGO_veEInM/edit?usp=sharing" },
+            { title: "Software Engineering: Implementation and Testing | Coursera", link: "https://www.coursera.org/account/accomplishments/verify/EKX9HYY645CV" },
+            { title: "Crash Course on Python (Google) | Coursera", link: "https://www.coursera.org/account/accomplishments/verify/XSH4GGKFJFS3" }
         ],
         achievements: [
             "Secured 5-Stars in Python on HackerRank",
@@ -57,6 +57,14 @@ export const config = {
             image: "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=500&q=80",
             link: "https://github.com/nikhilsoftwareboy/NiksLMS",
             liveLink: "https://niksboy.pythonanywhere.com/"
+        },
+        {
+            id: 3,
+            title: "Nikhil's Portfolio - 3D Interactive Web",
+            description: "A modern, 3D interactive developer portfolio built with React, Vite, Tailwind CSS, Framer Motion, and React Three Fiber. Features a dark-mode first design and real-time backend with Flask-SocketIO.",
+            image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&q=80",
+            link: "https://github.com/nikhilsoftwareboy/Nikhil_Portfolio",
+            liveLink: ""
         }
     ],
 
@@ -66,25 +74,29 @@ export const config = {
             year: "Aug 2023 - Present",
             role: "B.Tech Computer Science",
             company: "Lovely Professional University",
-            description: "Pursuing Bachelor of Technology in Computer Science and Engineering. CGPA: 7.0."
+            description: "Pursuing Bachelor of Technology in Computer Science and Engineering. CGPA: 7.0.",
+            logo: "/lpu-logo.png" // Replace with your actual logo file name
         },
         {
             year: "June 2025",
             role: "Training: C++ Programming, OOPs & DSA",
             company: "CSE Pathshala",
-            description: "Hands-on experience in core C++ development, Object-Oriented Programming (OOP) principles, and algorithmic problem-solving like arrays, linked lists, trees, and graphs."
+            description: "Hands-on experience in core C++ development, Object-Oriented Programming (OOP) principles, and algorithmic problem-solving like arrays, linked lists, trees, and graphs.",
+            logo: "/cse-pathshala-logo.png" // Replace with your actual logo file name
         },
         {
             year: "April 2022 - March 2023",
             role: "Intermediate (12th)",
             company: "Kendriya Vidyalaya No.2 Delhi Cantt",
-            description: "Completed higher secondary education with 66.5%."
+            description: "Completed higher secondary education with 66.5%.",
+            logo: "/kv-logo.png" // Replace with your actual logo file name
         },
         {
             year: "April 2020 - March 2021",
             role: "Matriculation (10th)",
             company: "Kendriya Vidyalaya No.5 AFS Darjipura",
-            description: "Completed secondary education with 85.2%."
+            description: "Completed secondary education with 85.2%.",
+            logo: "/kv-logo.png" // Replace with your actual logo file name
         }
     ],
 
