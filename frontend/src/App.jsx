@@ -7,10 +7,12 @@ import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import CustomCursor from './components/CustomCursor';
+import BackgroundEffect from './components/BackgroundEffect';
 
 function App() {
   return (
-    <div className="w-full min-h-screen bg-lightMain dark:bg-darkMain text-gray-900 dark:text-gray-100 font-sans selection:bg-accent selection:text-white">
+    <div className="relative w-full min-h-screen bg-lightMain dark:bg-darkMain text-gray-900 dark:text-gray-100 font-sans selection:bg-accent selection:text-white">
+      <BackgroundEffect />
       <CustomCursor />
       <Header />
 
