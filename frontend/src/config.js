@@ -57,14 +57,6 @@ export const config = {
             image: "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=500&q=80",
             link: "https://github.com/nikhilsoftwareboy/NiksLMS",
             liveLink: "https://niksboy.pythonanywhere.com/"
-        },
-        {
-            id: 3,
-            title: "Nikhil's Portfolio - 3D Interactive Web",
-            description: "A modern, 3D interactive developer portfolio built with React, Vite, Tailwind CSS, Framer Motion, and React Three Fiber. Features a dark-mode first design and real-time backend with Flask-SocketIO.",
-            image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&q=80",
-            link: "https://github.com/nikhilsoftwareboy/Nikhil_Portfolio",
-            liveLink: ""
         }
     ],
 
